@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-col {
+  background-color: #5200ff;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.left-col:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: 100%;
+  opacity: .22;
+}
