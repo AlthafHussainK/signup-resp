@@ -22,3 +22,11 @@ body {
   background-position: 100%;
   opacity: .22;
 }
+
+.content {
+  position: relative;
+}
+
+.left-col, .right-col {
+  padding: 6.75rem 8vw;
+}
